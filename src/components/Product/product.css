@@ -1,0 +1,32 @@
+.card {
+    width: 80%;
+    box-sizing: border-box ;
+    margin: 10px auto;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.card:hover{
+    
+    box-shadow: inset 0 0 0 2px #53a7ea;
+
+}
+
+
+.spinner-border {
+    margin: 10px auto;
+    text-align: center;
+}
+
+.prod {
+    text-align: center;
+}
+
+.selected{
+    text-align: right;
+}
+
+.card-header{
+    display: flex;
+    justify-content: space-between;
+}
